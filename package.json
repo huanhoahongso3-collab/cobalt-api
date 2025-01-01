@@ -3,26 +3,26 @@
     "description": "save what you love",
     "version": "10.5.2",
     "author": "imput",
-    "exports": "./src/cobalt.js",
+    "exports": "./cobalt.js",
     "type": "module",
     "engines": {
         "node": ">=18"
     },
     "scripts": {
-        "start": "node src/cobalt",
-        "test": "node src/util/test",
-        "token:youtube": "node src/util/generate-youtube-tokens",
-        "token:jwt": "node src/util/generate-jwt-secret"
+        "start": "node cobalt",
+        "test": "node util/test",
+        "token:youtube": "node util/generate-youtube-tokens",
+        "token:jwt": "node util/generate-jwt-secret"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/imputnet/cobalt.git"
+        "url": "git+https://github.com/huanhoahongso3-collab/cobalt-api.git"
     },
     "license": "AGPL-3.0",
     "bugs": {
-        "url": "https://github.com/imputnet/cobalt/issues"
+        "url": "https://github.com/huanhoahongso3-collab/cobalt-api/issues"
     },
-    "homepage": "https://github.com/imputnet/cobalt#readme",
+    "homepage": "https://github.com/huanhoahongso3-collab/cobalt-api#readme",
     "dependencies": {
         "@datastructures-js/priority-queue": "^6.3.1",
         "@imput/psl": "^2.0.4",
