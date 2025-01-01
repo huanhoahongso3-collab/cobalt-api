@@ -26,7 +26,6 @@
     "dependencies": {
         "@datastructures-js/priority-queue": "^6.3.1",
         "@imput/psl": "^2.0.4",
-        "@imput/version-info": "1.0.0",  
         "content-disposition-header": "0.6.0",
         "cors": "^2.8.5",
         "dotenv": "^16.0.1",
